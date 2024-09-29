@@ -1,0 +1,25 @@
+@import "../../vendor/tempest/highlight/src/Themes/Css/highlight-light-lite.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.hl-gutter {
+    display: inline;
+    font-size: 0.865rem;
+}
+
+.hl-gutter-deletion {
+    margin-right: 0px;
+    background-color: rgb(254 202 202);
+}
+
+.hl-deletion {
+    display: inline;
+    min-width: 100%;
+    background-color: rgb(254 202 202);
+}
